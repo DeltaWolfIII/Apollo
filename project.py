@@ -3,7 +3,7 @@ import youtube_dl
 
 URL = input("Enter a song name: ")
 URL = URL + " audio"
-quality = input("what quality would like your song to be? (low, medium, or high) ")
+quality = input("What quality would like your song to be? (low, medium, or high) ")
 if quality == 'low':
 	bitrate = '96'
 if quality == 'medium':
