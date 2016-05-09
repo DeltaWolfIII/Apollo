@@ -1,12 +1,10 @@
 from __future__ import unicode_literals
 import youtube_dl
 
-URL = input("Enter a song name: ")
-if "youtube.com/" not in URL
+URL = input("Enter a song name or a YouTube playlist URL: ")
+if "youtube.com/" not in URL:
     URL = URL + "audio"
 
-
-URL = URL + " audio"
 quality = input("What quality would like your song to be? (low, medium, or high) ")
 if quality == 'low':
 	bitrate = '96'
