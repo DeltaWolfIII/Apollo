@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-import youtube_dl
+import youtubedl
 
 URL = input("Enter a song name or a YouTube playlist URL: ")
 if "youtube.com/" not in URL:
@@ -26,7 +26,7 @@ ytdl_options = {
     'default_search': 'auto',
     'quiet': 'on'
 }
-with youtube_dl.YoutubeDL(ytdl_options) as ytdl:
+with youtubedl.YoutubeDL(ytdl_options) as ytdl:
    ytdl.download([URL])
 
 print("Your song has finished downloading.")
