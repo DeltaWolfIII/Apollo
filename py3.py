@@ -1,7 +1,8 @@
 from __future__ import unicode_literals
 import youtubedl
 import sys
-if sys.version_info[0] <= 3:
+if sys.version_info[0] < 3
+	print("Python version lower than 3, please run \"py3.py\"")
 URL = input("Enter a song name or a YouTube playlist URL: ")
 if "youtube.com/" not in URL:
     URL = URL + "audio"
