@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
 import youtubedl
-
+import sys
+if sys.version_info[0] <= 3:
 URL = input("Enter a song name or a YouTube playlist URL: ")
 if "youtube.com/" not in URL:
     URL = URL + "audio"
