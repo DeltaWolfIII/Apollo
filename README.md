@@ -9,7 +9,7 @@ A simple Python script that utilizes Youtube-dl to download songs.
 0. type `python apollo.py` in terminal. Or if you have Python 3, type `python3 apollo.py`.
 
 ###Windows
-0. [Install Python](https://www.python.org/downloads/)
+0. [Install Python 3](https://www.python.org/downloads/)
 0. [Install ffmpeg](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
 0. Download the Apollo zip and extract the contents to a folder.
-0. type `python apollo.py` into Administrator Command Prompt
+0. Double click on py3.py (or py2.py if you installed Python 2)
