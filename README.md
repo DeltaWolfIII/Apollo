@@ -1,4 +1,4 @@
-# Euterpe
+# Apollo
 A simple Python script that utilizes Youtube-dl to download songs.
 
 ##How to Use
