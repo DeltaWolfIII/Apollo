@@ -1,0 +1,6 @@
+{
+  "name": "Apollo",
+  "tagline": "A simple Python script that uitilizes Youtube-DL.",
+  "body": "# Apollo\r\nA simple Python script that utilizes Youtube-dl to download songs.\r\n\r\n##How to Use\r\n###Linux/MAC OSX\r\n0. [Install Python](https://www.python.org/downloads/). On MAC OSX, and most linux distros, Python 2 is pre-installed\r\n0. Install ffmpeg through your distro's package manager. For MAC OSX, use [homebrew](http://brew.sh/)\r\n0. Download the zip and extract the contents to a folder, or use `git clone https://github.com/DeltawolfIII/Euterpe.git`\r\n0. type `python euterpe.py` in terminal. Or if you have Python 3, type `python3 euterpe.py`.\r\n\r\n###Windows\r\n0. [Install Python](https://www.python.org/downloads/)\r\n0. [Install ffmpeg](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)\r\n0. Download the zip and extract the contents to a folder.\r\n0. type `python euterpe.py` into Administrator Command Prompt\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
